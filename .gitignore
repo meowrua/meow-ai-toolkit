@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+.trae/
+.zed/
+.qwen/
+.gemini/
+.opencode/
+.kiro/
+.codex/
+.codex-plugin/
+.codebuddy/
+.claude-plugin/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.venv/
+venv/
+
+# Build
+*.tsbuildinfo
+.cache/
+
+# Claude Code session data (local only)
+.claude/projects/
+.claude/worktrees/
+.claude/transcripts/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
